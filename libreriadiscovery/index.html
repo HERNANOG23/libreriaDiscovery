@@ -1,0 +1,200 @@
+<!--<?php
+ob_start();
+?>-->
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+    <meta charset="UTF-8">    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DANIEL MOTOS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DANIEL MOTOS es un taller de motocicletas">
+
+    <!--precarga(preload) de los estilos o css-->
+
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--precargar(preload) de las fuentes-->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,500&family=Ubuntu:ital,wght@0,500;1,300&display=swap"
+    crossorigin="crossorigin" as="font">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,500&family=Ubuntu:ital,wght@0,500;1,300&display=swap" rel="stylesheet">
+    
+ </head>
+  <body>
+
+    <!--encabezado de pag-->
+
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+
+                <a class="logo" href="index.html">               
+                         <h1 class="logo1__nombre centrar-texto">DANIEL MOTOS</h1>                 
+                </a>
+                  <!--menu-->
+                <nav class="menu">
+                    <a href="nosotros.html" class="menu__enlace">Nosotros</a>
+                    <a href="taller.html" class="menu__enlace">Taller</a>
+                    <a href="contacto.html" class="menu__enlace">Contacto</a>
+                </nav>
+               
+            </div>
+                 
+            <!--Slogan-->
+            <div class="header__texto">
+                <h2 class="no-margin">Todo en mecanica de motocicletas</h2>
+                <h2 class="no-margin">Tu moto en manos profesionales</h2>
+            
+            </div>
+        </div>
+        
+    </header><!--fin encabezado-->
+
+        <div class="contenedor contenido-principal">
+            <aside>
+                <h3 class="titulo">Temas</h3>
+                <nav class="indice">
+                    <a href="#nuestra-info">Nuestra Info</a><br>
+                    <a href="#venta">Venta de accesorios</a><br>
+                    <a href="#videos">Videos</a><br>
+                    <a href="#imagenes">Imágenes</a>
+                   
+                </nav>
+            </aside>
+            <main class="blog">
+                <a name="nuestra-info"></a>
+                <h3>Nuestra Info</h3>
+                <!--articulos-->
+                <article class="entrada">
+                    <div class="entrada__imagen">
+                        <picture>
+                           
+                            <img src="images/taller1.jpeg" width="800px" height="400px" alt="DANIEL MOTOS" loading="lazy">
+                        </picture>
+                    </div>
+
+                    <div class="entrada__contenido">
+                        <h4 class="no-margin">
+                            TALLER
+                        </h4>
+                        <p>
+                            En DANIEL MOTOS somos expertos en mecanica de motocicletas de dos y cuatro tiempos, se realizan mantenimientos preventivos, arreglos, latoneria y pintura a motocicletas de cualquier marca.</p>
+
+                       
+
+                    </div>
+
+                </article><!--fin articulo 1-->
+
+                <!--articulo 2-->
+
+                <article class="entrada">
+                    <div class="entrada__imagen">
+                        <picture>
+                           
+                            <img src="images/taller2.jpeg" width="800px" height="400px" alt="DANIEL MOTOS" loading="lazy">
+                        </picture>
+                    </div>
+
+                    <div class="entrada__contenido">
+                        <h4 class="no-margin">
+                         Toda Clase de arreglos.
+                        </h4>
+                        <p>
+                           
+                        </p>
+
+                       
+
+                    </div>
+
+                </article><!--fin articulo2-->
+
+                <!--articulo3-->
+
+                <article class="entrada">
+                    
+
+                    <div class="entrada__contenido">
+                        <a name="venta"></a>
+                        <h4 class="no-margin">
+                           Venta de accesorios
+                        </h4>
+                        <div class="entrada__imagen">
+                        <picture>
+                            <!--para detectar o no imagenes webp-->
+                            <!--<source srcset="images/noticias1.webp" type="image/webp">-->
+                            <img src="images/accesorios.jpeg" width="800px" height="400px" alt="Daniel Motos" loading="lazy">
+                        </picture>
+                        </div>
+                        <p>
+                           Contamos con gran variedad de accesorios para motocicletas y pilotos.
+                        </p>
+
+
+                    </div>
+
+                </article><!--fin articulo3-->
+
+            </main>
+
+            <!--Sidebar-->
+            <aside class="sidebar">
+                <a name="videos"></a>
+                <h3>Videos</h3>
+                <!--Lista-->
+                <!--Videos-->
+                
+                    <ul class="video">
+                        <iframe width="755" height="425" src="https://www.youtube.com/embed/jeznzD_csOg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+                        
+                        <iframe width="755" height="425" src="https://www.youtube.com/embed/VCy4yQuhi-w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+
+                    </ul> <!--fin videos-->
+                    <!--imagenes-->
+                    <ul class="imagenes">
+                        <li class="widget-imagenes">
+                            <a name="imagenes"></a>
+                            <h4 class="no-margin">Imagenes</h4>
+                            <picture>
+                           
+                                <img src="images/moto1.jpeg" alt="DANIEL MOTOS" loading="lazy">
+                                <img src="images/moto2.jpeg" alt="DANIEL MOTOS" loading="lazy">
+                                <img src="images/moto3.jpeg" alt="DANIEL MOTOS" loading="lazy">
+                                <img src="images/moto4.jpeg" alt="DANIEL MOTOS" loading="lazy">
+                                <img src="images/moto5.jpeg" alt="DANIEL MOTOS" loading="lazy">
+                                <img src="images/moto6.jpeg" alt="DANIEL MOTOS" loading="lazy">
+                                <img src="images/moto7.jpeg" alt="DANIEL MOTOS" loading="lazy">
+                                <img src="images/moto8.jpeg" alt="DANIEL MOTOS" loading="lazy">
+                                <img src="images/moto9.jpeg" alt="DANIEL MOTOS" loading="lazy">
+                                <img src="images/moto10.jpeg" alt="DANIEL MOTOS" loading="lazy">
+                                
+                                
+                            </picture>
+
+                           
+                        </li>
+
+                    </ul> <!--fin imagenes2-->
+                    
+            </aside>
+        </div>
+
+        <!--pie de pagina-->
+
+        <footer class="footer">
+            <div class="contenedor">
+            <h4>Medellín Colombia. Since 2021</h4>   
+            </div>   
+
+        </footer>    
+
+    
+    <script src="js/modernizr.js"></script>
+ </body>
+</html>
